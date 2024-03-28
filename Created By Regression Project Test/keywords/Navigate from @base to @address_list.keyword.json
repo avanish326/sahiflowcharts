@@ -1,0 +1,31 @@
+{
+  "modifiedOn": "2024-03-08T05:11:21.622332700Z",
+  "name": "Navigate from @base to @address_list",
+  "id": "0",
+  "type": 3,
+  "createdOn": "2024-03-08T05:11:21.622332700Z",
+  "content": {
+    "title": "Navigate from @base to @address_list",
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_navigateTo",
+        "stepParameters": [
+          {
+            "isCustomParameter": true,
+            "customValue": "\"https://phppot.com/demo/country-state-city-example-cascading-jquery-dependent-dropdown/\""
+          },
+          {
+            "isCustomParameter": true,
+            "customValue": "true"
+          }
+        ],
+        "stepType": "Action"
+      }
+    ],
+    "isSystemKeyword": true
+  },
+  "enabled": false,
+  "parentId": ""
+}

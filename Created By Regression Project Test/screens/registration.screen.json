@@ -1,0 +1,28 @@
+{
+  "modifiedOn": "2024-03-08T05:09:24.283548100Z",
+  "name": "registration",
+  "id": "-1",
+  "type": 2,
+  "createdOn": "2024-03-07T23:39:24Z",
+  "content": {
+    "accessors": [
+      {
+        "id": "acc0",
+        "name": "Opencart",
+        "accessor": "\"/opencart/\""
+      },
+      {
+        "id": "acc1",
+        "name": "Sahi Link My Account",
+        "accessor": "_sahi._link(\"My Account\")"
+      },
+      {
+        "id": "acc2",
+        "name": "Sahi Link Register",
+        "accessor": "_sahi._link(\"Register\")"
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

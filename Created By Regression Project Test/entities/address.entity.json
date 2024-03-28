@@ -1,0 +1,130 @@
+{
+  "modifiedOn": "2024-03-08T05:12:12.652955800Z",
+  "name": "address",
+  "id": "-1",
+  "type": 1,
+  "createdOn": "2024-03-05T00:11:21Z",
+  "content": {
+    "default": {
+      "attr_01709874705195": {
+        "name": "country",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Country Input",
+            "accessor": "_sahi._select(\"country\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "list",
+        "props": {
+          "values": {
+            "None": [
+              "Brazil",
+              "China",
+              "France",
+              "India"
+            ]
+          }
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_11709874705196": {
+        "name": "state",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "State Input",
+            "accessor": "_sahi._select(\"state\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "list",
+        "props": {
+          "sync-with": "attr_01709874705195",
+          "sync-items": [
+            "attr_01709874705195::India"
+          ],
+          "values": {
+            "India": [
+              "Haryana",
+              "Andhra Pradesh"
+            ],
+            "France": [
+              "Ile-de-France",
+              "Midi-Pyrenees"
+            ],
+            "China": [
+              "Beijing",
+              "Hebei"
+            ],
+            "Brazil": [
+              "Sao Paulo",
+              "Rio de Janeiro"
+            ]
+          }
+        },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_21709874705196": {
+        "name": "city",
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "City Input",
+            "accessor": "_sahi._select(\"city\")",
+            "messageAccessor": ""
+          }
+        ],
+        "type": "list",
+        "props": {
+          "sync-with": "attr_11709874705196",
+          "sync-items": [
+            "attr_01709874705195::India",
+            "attr_11709874705196::Andhra Pradesh"
+          ],
+          "values": {
+            "India::Andhra Pradesh": [
+              "Nellore",
+              "Elluru"
+            ],
+            "India::Haryana": [
+              "Chandigarh",
+              "Rewari"
+            ],
+            "France::Midi-Pyrenees": [
+              "Rodrez",
+              "Torbes"
+            ],
+            "France::Ile-de-France": [
+              "Paris",
+              "Poissy"
+            ],
+            "China::Hebei": [
+              "Baoding",
+              "Qinhuangdao"
+            ],
+            "China::Beijing": [
+              "Chongqing",
+              "Shanghai"
+            ],
+            "Brazil::Rio de Janeiro": [
+              "Angra dos Reis",
+              "Barra Mansa"
+            ],
+            "Brazil::Sao Paulo": [
+              "Diadema",
+              "Rio Grande da Serra"
+            ]
+          }
+        },
+        "invalidData": [],
+        "validData": []
+      }
+    }
+  },
+  "enabled": false,
+  "parentId": ""
+}

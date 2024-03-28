@@ -1,0 +1,156 @@
+{
+  "modifiedOn": "2024-03-08T05:10:57.012207700Z",
+  "name": "users",
+  "id": "-1",
+  "type": 1,
+  "createdOn": "2024-03-07T18:10:46Z",
+  "content": {
+    "default": {
+      "attr_01709874572996": {
+        "name": "first_name",
+        "type": "text",
+        "props": {
+          "prefix": "Test_",
+          "min-length": "2",
+          "max-length": "5",
+          "include-alphabet": "true",
+          "include-numeric": "false",
+          "include-special": "false"
+        },
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Firstname Input",
+            "accessor": "_sahi._textbox(\"firstname\")",
+            "messageAccessor": "_sahi._div(\"text-danger\", _sahi._near(_sahi._label(\"First Name\")))"
+          }
+        ],
+        "validData": [],
+        "invalidData": [
+          {
+            "value": "123456789123456789123456789123456789",
+            "message": "First Name must be between 1 and 32 characters!",
+            "comment": "Should not be blank"
+          }
+        ],
+        "specific": []
+      },
+      "attr_11709874572997": {
+        "name": "last_name",
+        "type": "text",
+        "props": {
+          "prefix": "Flow_",
+          "min-length": "2",
+          "max-length": "5",
+          "include-alphabet": "true",
+          "include-numeric": "false",
+          "include-special": "false"
+        },
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Lastname Input",
+            "accessor": "_sahi._textbox(\"lastname\")",
+            "messageAccessor": "_sahi._div(\"text-danger\", _sahi._near(_sahi._label(\"Last Name\")))"
+          }
+        ],
+        "validData": [],
+        "invalidData": [
+          {
+            "value": "123456789123456789123456789123456789",
+            "message": "Last Name must be between 1 and 32 characters!",
+            "comment": "Should not be blank"
+          }
+        ],
+        "specific": []
+      },
+      "attr_21709874572997": {
+        "name": "email",
+        "type": "email",
+        "props": {
+          "names": [
+            "Test_Flow"
+          ],
+          "domains": [
+            "gmail.com"
+          ],
+          "add-timestamp": "true"
+        },
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Email Input",
+            "accessor": "_sahi._emailbox(\"email\")",
+            "messageAccessor": "\"[built-in]\""
+          }
+        ],
+        "validData": [],
+        "invalidData": [
+          {
+            "value": "name.example.com",
+            "message": "",
+            "comment": "@ is missing"
+          },
+          {
+            "value": "@example.com",
+            "message": "@",
+            "comment": "Incomplete email id"
+          },
+          {
+            "value": "name@",
+            "message": "@",
+            "comment": "Email domain is missing"
+          }
+        ],
+        "specific": []
+      },
+      "attr_31709874572997": {
+        "name": "telephone",
+        "type": "number",
+        "props": {
+          "min": "6000000000",
+          "max": "9999999999"
+        },
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Telephone Input",
+            "accessor": "_sahi._telephonebox(\"telephone\")",
+            "messageAccessor": ""
+          }
+        ],
+        "validData": [],
+        "invalidData": [],
+        "specific": []
+      },
+      "attr_41709874572998": {
+        "name": "password",
+        "type": "text",
+        "props": {
+          "prefix": "abcd1234",
+          "min-length": "0",
+          "max-length": "0"
+        },
+        "accessors": [
+          {
+            "id": "acc0",
+            "name": "Password Input",
+            "accessor": "_sahi._password(\"password\")",
+            "messageAccessor": ""
+          },
+          {
+            "id": "acc1",
+            "name": "Confirm Input",
+            "accessor": "_sahi._password(\"confirm\")",
+            "messageAccessor": ""
+          }
+        ],
+        "validData": [],
+        "invalidData": [],
+        "specific": []
+      }
+    }
+  },
+  "enabled": false,
+  "parentId": ""
+}

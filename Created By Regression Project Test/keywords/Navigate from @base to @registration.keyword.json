@@ -1,0 +1,53 @@
+{
+  "modifiedOn": "2024-03-08T05:09:27.856476500Z",
+  "name": "Navigate from @base to @registration",
+  "id": "-1",
+  "type": 3,
+  "createdOn": "2024-03-07T23:38:45Z",
+  "content": {
+    "isSystemKeyword": true,
+    "title": "Navigate from @base to @registration",
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_navigateTo",
+        "stepParameters": [
+          {
+            "screenId": "registration",
+            "accessorId": "acc0"
+          },
+          {
+            "isCustomParameter": true,
+            "customValue": "true"
+          }
+        ],
+        "stepType": "Action"
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "screenId": "registration",
+            "accessorId": "acc1"
+          }
+        ],
+        "stepType": "Action"
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "screenId": "registration",
+            "accessorId": "acc2"
+          }
+        ],
+        "stepType": "Action"
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

@@ -1,0 +1,70 @@
+{
+  "modifiedOn": "2024-03-08T05:11:48.825975400Z",
+  "name": "Create $address",
+  "id": "-1",
+  "type": 3,
+  "createdOn": "2024-03-07T23:41:29Z",
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Create $address",
+    "parameters": [
+      {
+        "parameterId": "address_",
+        "entityTypeId": "address",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_setSelected",
+        "stepParameters": [
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_01709874705195",
+            "accessorId": "acc0"
+          },
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_01709874705195"
+          }
+        ],
+        "stepType": "Action"
+      },
+      {
+        "commented": false,
+        "action": "_setSelected",
+        "stepParameters": [
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_11709874705196",
+            "accessorId": "acc0"
+          },
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_11709874705196"
+          }
+        ],
+        "stepType": "Action"
+      },
+      {
+        "commented": false,
+        "action": "_setSelected",
+        "stepParameters": [
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_21709874705196",
+            "accessorId": "acc0"
+          },
+          {
+            "parameterId": "address_",
+            "attributeId": "attr_21709874705196"
+          }
+        ],
+        "stepType": "Action"
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
